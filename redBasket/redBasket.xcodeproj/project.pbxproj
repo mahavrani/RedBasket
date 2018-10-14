@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02695C5B213158F200F571DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02695C5A213158F200F571DB /* AppDelegate.swift */; };
+		02695C60213158F200F571DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02695C5E213158F200F571DB /* Main.storyboard */; };
+		02695C63213158F200F571DB /* redBasket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02695C61213158F200F571DB /* redBasket.xcdatamodeld */; };
+		02695C65213158F200F571DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02695C64213158F200F571DB /* Assets.xcassets */; };
+		02695C68213158F200F571DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02695C66213158F200F571DB /* LaunchScreen.storyboard */; };
+		02695C73213158F300F571DB /* redBasketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02695C72213158F300F571DB /* redBasketTests.swift */; };
+		02695C7E213158F300F571DB /* redBasketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02695C7D213158F300F571DB /* redBasketUITests.swift */; };
+		02830A252132FC770085AB71 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02830A232132FC580085AB71 /* Reachability.swift */; };
+		02830A2D213305750085AB71 /* RedBasketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02830A2C213305750085AB71 /* RedBasketListViewController.swift */; };
+		02830A2F213305CD0085AB71 /* RedBasketDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02830A2E213305CD0085AB71 /* RedBasketDetailViewController.swift */; };
+		02830A312133060F0085AB71 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02830A302133060F0085AB71 /* Products.swift */; };
+		02830A332133061F0085AB71 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02830A322133061F0085AB71 /* Pagination.swift */; };
+		02830A352133062B0085AB71 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02830A342133062B0085AB71 /* DataSource.swift */; };
+		02830A37213306410085AB71 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02830A36213306410085AB71 /* Service.swift */; };
+		02830A39213306690085AB71 /* RedBasketListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02830A38213306690085AB71 /* RedBasketListCollectionViewCell.swift */; };
+		02830A3B213306990085AB71 /* RedBasketInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02830A3A213306990085AB71 /* RedBasketInfoTableViewCell.swift */; };
+		02830A3D213306AE0085AB71 /* RedBasketDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02830A3C213306AE0085AB71 /* RedBasketDetailTableViewCell.swift */; };
+		02830A3F213306BE0085AB71 /* RedBasketImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02830A3E213306BE0085AB71 /* RedBasketImageTableViewCell.swift */; };
+		02830A41213306E50085AB71 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02830A40213306E50085AB71 /* Constants.swift */; };
+		101981715BEED1B9AE8C10F3 /* Pods_redBasket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EA113385C1E01497CE08E7 /* Pods_redBasket.framework */; };
+		85458796058FBF379E33D8B7 /* Pods_redBasketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A035981D775D16FCD23CE434 /* Pods_redBasketTests.framework */; };
+		C2AC3E77A3C7870F3733B37E /* Pods_redBasketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10020AC01EA18629D59311E4 /* Pods_redBasketUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02695C6F213158F300F571DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02695C4F213158F200F571DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02695C56213158F200F571DB;
+			remoteInfo = redBasket;
+		};
+		02695C7A213158F300F571DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02695C4F213158F200F571DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02695C56213158F200F571DB;
+			remoteInfo = redBasket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F79FCFDADD1B30757FDE8A /* Pods-redBasketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-redBasketUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-redBasketUITests/Pods-redBasketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		02695C57213158F200F571DB /* redBasket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redBasket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02695C5A213158F200F571DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02695C5F213158F200F571DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02695C62213158F200F571DB /* redBasket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = redBasket.xcdatamodel; sourceTree = "<group>"; };
+		02695C64213158F200F571DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02695C67213158F200F571DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02695C69213158F200F571DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02695C6E213158F300F571DB /* redBasketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redBasketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02695C72213158F300F571DB /* redBasketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redBasketTests.swift; sourceTree = "<group>"; };
+		02695C74213158F300F571DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02695C79213158F300F571DB /* redBasketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redBasketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02695C7D213158F300F571DB /* redBasketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redBasketUITests.swift; sourceTree = "<group>"; };
+		02695C7F213158F300F571DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02830A232132FC580085AB71 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		02830A2C213305750085AB71 /* RedBasketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBasketListViewController.swift; sourceTree = "<group>"; };
+		02830A2E213305CD0085AB71 /* RedBasketDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBasketDetailViewController.swift; sourceTree = "<group>"; };
+		02830A302133060F0085AB71 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		02830A322133061F0085AB71 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		02830A342133062B0085AB71 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		02830A36213306410085AB71 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		02830A38213306690085AB71 /* RedBasketListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBasketListCollectionViewCell.swift; sourceTree = "<group>"; };
+		02830A3A213306990085AB71 /* RedBasketInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBasketInfoTableViewCell.swift; sourceTree = "<group>"; };
+		02830A3C213306AE0085AB71 /* RedBasketDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBasketDetailTableViewCell.swift; sourceTree = "<group>"; };
+		02830A3E213306BE0085AB71 /* RedBasketImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBasketImageTableViewCell.swift; sourceTree = "<group>"; };
+		02830A40213306E50085AB71 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		10020AC01EA18629D59311E4 /* Pods_redBasketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_redBasketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25AA537E98393B22DD49051B /* Pods-redBasketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-redBasketTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-redBasketTests/Pods-redBasketTests.release.xcconfig"; sourceTree = "<group>"; };
+		41DE79528766E820B01E738A /* Pods-redBasketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-redBasketUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-redBasketUITests/Pods-redBasketUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B3F0963E4EC7DF0D4284611 /* Pods-redBasketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-redBasketTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-redBasketTests/Pods-redBasketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51211082CBD7E68F85E2DA37 /* Pods-redBasket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-redBasket.release.xcconfig"; path = "Pods/Target Support Files/Pods-redBasket/Pods-redBasket.release.xcconfig"; sourceTree = "<group>"; };
+		90EA113385C1E01497CE08E7 /* Pods_redBasket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_redBasket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A035981D775D16FCD23CE434 /* Pods_redBasketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_redBasketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9ADE056EB8D96A6C44392EF /* Pods-redBasket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-redBasket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-redBasket/Pods-redBasket.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02695C54213158F200F571DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101981715BEED1B9AE8C10F3 /* Pods_redBasket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02695C6B213158F300F571DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85458796058FBF379E33D8B7 /* Pods_redBasketTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02695C76213158F300F571DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AC3E77A3C7870F3733B37E /* Pods_redBasketUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02695C4E213158F200F571DB = {
+			isa = PBXGroup;
+			children = (
+				02695C59213158F200F571DB /* redBasket */,
+				02695C71213158F300F571DB /* redBasketTests */,
+				02695C7C213158F300F571DB /* redBasketUITests */,
+				02695C58213158F200F571DB /* Products */,
+				C4F1290162B9D004BBC29B66 /* Pods */,
+				265518EB9FC155ECC5485FEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02695C58213158F200F571DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02695C57213158F200F571DB /* redBasket.app */,
+				02695C6E213158F300F571DB /* redBasketTests.xctest */,
+				02695C79213158F300F571DB /* redBasketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02695C59213158F200F571DB /* redBasket */ = {
+			isa = PBXGroup;
+			children = (
+				02830A292132FCA60085AB71 /* HelperClass */,
+				02830A282132FC9D0085AB71 /* Controller */,
+				02830A272132FC950085AB71 /* View */,
+				02830A262132FC8E0085AB71 /* Model */,
+				02695C5A213158F200F571DB /* AppDelegate.swift */,
+				02695C64213158F200F571DB /* Assets.xcassets */,
+				02695C5E213158F200F571DB /* Main.storyboard */,
+				02695C66213158F200F571DB /* LaunchScreen.storyboard */,
+				02695C69213158F200F571DB /* Info.plist */,
+				02695C61213158F200F571DB /* redBasket.xcdatamodeld */,
+			);
+			path = redBasket;
+			sourceTree = "<group>";
+		};
+		02695C71213158F300F571DB /* redBasketTests */ = {
+			isa = PBXGroup;
+			children = (
+				02695C72213158F300F571DB /* redBasketTests.swift */,
+				02695C74213158F300F571DB /* Info.plist */,
+			);
+			path = redBasketTests;
+			sourceTree = "<group>";
+		};
+		02695C7C213158F300F571DB /* redBasketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02695C7D213158F300F571DB /* redBasketUITests.swift */,
+				02695C7F213158F300F571DB /* Info.plist */,
+			);
+			path = redBasketUITests;
+			sourceTree = "<group>";
+		};
+		02830A262132FC8E0085AB71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02830A302133060F0085AB71 /* Products.swift */,
+				02830A322133061F0085AB71 /* Pagination.swift */,
+				02830A342133062B0085AB71 /* DataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02830A272132FC950085AB71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02830A38213306690085AB71 /* RedBasketListCollectionViewCell.swift */,
+				02830A3A213306990085AB71 /* RedBasketInfoTableViewCell.swift */,
+				02830A3C213306AE0085AB71 /* RedBasketDetailTableViewCell.swift */,
+				02830A3E213306BE0085AB71 /* RedBasketImageTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02830A282132FC9D0085AB71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				02830A2C213305750085AB71 /* RedBasketListViewController.swift */,
+				02830A2E213305CD0085AB71 /* RedBasketDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		02830A292132FCA60085AB71 /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				02830A232132FC580085AB71 /* Reachability.swift */,
+				02830A36213306410085AB71 /* Service.swift */,
+				02830A40213306E50085AB71 /* Constants.swift */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		265518EB9FC155ECC5485FEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90EA113385C1E01497CE08E7 /* Pods_redBasket.framework */,
+				A035981D775D16FCD23CE434 /* Pods_redBasketTests.framework */,
+				10020AC01EA18629D59311E4 /* Pods_redBasketUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4F1290162B9D004BBC29B66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9ADE056EB8D96A6C44392EF /* Pods-redBasket.debug.xcconfig */,
+				51211082CBD7E68F85E2DA37 /* Pods-redBasket.release.xcconfig */,
+				4B3F0963E4EC7DF0D4284611 /* Pods-redBasketTests.debug.xcconfig */,
+				25AA537E98393B22DD49051B /* Pods-redBasketTests.release.xcconfig */,
+				00F79FCFDADD1B30757FDE8A /* Pods-redBasketUITests.debug.xcconfig */,
+				41DE79528766E820B01E738A /* Pods-redBasketUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02695C56213158F200F571DB /* redBasket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02695C82213158F300F571DB /* Build configuration list for PBXNativeTarget "redBasket" */;
+			buildPhases = (
+				D3A049B2BBA71FBEE0DD73FF /* [CP] Check Pods Manifest.lock */,
+				02695C53213158F200F571DB /* Sources */,
+				02695C54213158F200F571DB /* Frameworks */,
+				02695C55213158F200F571DB /* Resources */,
+				79D823309245E2FC1ABF1E90 /* [CP] Embed Pods Frameworks */,
+				E7663F1CB54DA3C41F1E127A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redBasket;
+			productName = redBasket;
+			productReference = 02695C57213158F200F571DB /* redBasket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02695C6D213158F300F571DB /* redBasketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02695C85213158F300F571DB /* Build configuration list for PBXNativeTarget "redBasketTests" */;
+			buildPhases = (
+				CD8A3EBC604CF857899119E3 /* [CP] Check Pods Manifest.lock */,
+				02695C6A213158F300F571DB /* Sources */,
+				02695C6B213158F300F571DB /* Frameworks */,
+				02695C6C213158F300F571DB /* Resources */,
+				3E6372134B127621EAE5A029 /* [CP] Embed Pods Frameworks */,
+				2EBC7B8E913060421FA00FC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02695C70213158F300F571DB /* PBXTargetDependency */,
+			);
+			name = redBasketTests;
+			productName = redBasketTests;
+			productReference = 02695C6E213158F300F571DB /* redBasketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02695C78213158F300F571DB /* redBasketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02695C88213158F300F571DB /* Build configuration list for PBXNativeTarget "redBasketUITests" */;
+			buildPhases = (
+				5E6D7061431997B530E41EC0 /* [CP] Check Pods Manifest.lock */,
+				02695C75213158F300F571DB /* Sources */,
+				02695C76213158F300F571DB /* Frameworks */,
+				02695C77213158F300F571DB /* Resources */,
+				5F40017C5C89C0E6658F306B /* [CP] Embed Pods Frameworks */,
+				C8ACB6FD42F257774837916F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02695C7B213158F300F571DB /* PBXTargetDependency */,
+			);
+			name = redBasketUITests;
+			productName = redBasketUITests;
+			productReference = 02695C79213158F300F571DB /* redBasketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02695C4F213158F200F571DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Maharani;
+				TargetAttributes = {
+					02695C56213158F200F571DB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					02695C6D213158F300F571DB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02695C56213158F200F571DB;
+					};
+					02695C78213158F300F571DB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02695C56213158F200F571DB;
+					};
+				};
+			};
+			buildConfigurationList = 02695C52213158F200F571DB /* Build configuration list for PBXProject "redBasket" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02695C4E213158F200F571DB;
+			productRefGroup = 02695C58213158F200F571DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02695C56213158F200F571DB /* redBasket */,
+				02695C6D213158F300F571DB /* redBasketTests */,
+				02695C78213158F300F571DB /* redBasketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02695C55213158F200F571DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02695C68213158F200F571DB /* LaunchScreen.storyboard in Resources */,
+				02695C65213158F200F571DB /* Assets.xcassets in Resources */,
+				02695C60213158F200F571DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02695C6C213158F300F571DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02695C77213158F300F571DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EBC7B8E913060421FA00FC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-redBasketTests/Pods-redBasketTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E6372134B127621EAE5A029 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-redBasketTests/Pods-redBasketTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E6D7061431997B530E41EC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-redBasketUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F40017C5C89C0E6658F306B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-redBasketUITests/Pods-redBasketUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79D823309245E2FC1ABF1E90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-redBasket/Pods-redBasket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TRON/TRON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-redBasket/Pods-redBasket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8ACB6FD42F257774837916F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-redBasketUITests/Pods-redBasketUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8A3EBC604CF857899119E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-redBasketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A049B2BBA71FBEE0DD73FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-redBasket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7663F1CB54DA3C41F1E127A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-redBasket/Pods-redBasket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02695C53213158F200F571DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02830A2F213305CD0085AB71 /* RedBasketDetailViewController.swift in Sources */,
+				02830A252132FC770085AB71 /* Reachability.swift in Sources */,
+				02830A352133062B0085AB71 /* DataSource.swift in Sources */,
+				02830A312133060F0085AB71 /* Products.swift in Sources */,
+				02830A41213306E50085AB71 /* Constants.swift in Sources */,
+				02830A3F213306BE0085AB71 /* RedBasketImageTableViewCell.swift in Sources */,
+				02830A2D213305750085AB71 /* RedBasketListViewController.swift in Sources */,
+				02830A3B213306990085AB71 /* RedBasketInfoTableViewCell.swift in Sources */,
+				02830A3D213306AE0085AB71 /* RedBasketDetailTableViewCell.swift in Sources */,
+				02830A332133061F0085AB71 /* Pagination.swift in Sources */,
+				02830A39213306690085AB71 /* RedBasketListCollectionViewCell.swift in Sources */,
+				02830A37213306410085AB71 /* Service.swift in Sources */,
+				02695C63213158F200F571DB /* redBasket.xcdatamodeld in Sources */,
+				02695C5B213158F200F571DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02695C6A213158F300F571DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02695C73213158F300F571DB /* redBasketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02695C75213158F300F571DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02695C7E213158F300F571DB /* redBasketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02695C70213158F300F571DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02695C56213158F200F571DB /* redBasket */;
+			targetProxy = 02695C6F213158F300F571DB /* PBXContainerItemProxy */;
+		};
+		02695C7B213158F300F571DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02695C56213158F200F571DB /* redBasket */;
+			targetProxy = 02695C7A213158F300F571DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02695C5E213158F200F571DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02695C5F213158F200F571DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02695C66213158F200F571DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02695C67213158F200F571DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02695C80213158F300F571DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02695C81213158F300F571DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02695C83213158F300F571DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9ADE056EB8D96A6C44392EF /* Pods-redBasket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6BL3577UC;
+				INFOPLIST_FILE = redBasket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maharani.redBasket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02695C84213158F300F571DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51211082CBD7E68F85E2DA37 /* Pods-redBasket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6BL3577UC;
+				INFOPLIST_FILE = redBasket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maharani.redBasket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02695C86213158F300F571DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3F0963E4EC7DF0D4284611 /* Pods-redBasketTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6BL3577UC;
+				INFOPLIST_FILE = redBasketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maharani.redBasketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redBasket.app/redBasket";
+			};
+			name = Debug;
+		};
+		02695C87213158F300F571DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AA537E98393B22DD49051B /* Pods-redBasketTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6BL3577UC;
+				INFOPLIST_FILE = redBasketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maharani.redBasketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redBasket.app/redBasket";
+			};
+			name = Release;
+		};
+		02695C89213158F300F571DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F79FCFDADD1B30757FDE8A /* Pods-redBasketUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6BL3577UC;
+				INFOPLIST_FILE = redBasketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maharani.redBasketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = redBasket;
+			};
+			name = Debug;
+		};
+		02695C8A213158F300F571DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DE79528766E820B01E738A /* Pods-redBasketUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6BL3577UC;
+				INFOPLIST_FILE = redBasketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maharani.redBasketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = redBasket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02695C52213158F200F571DB /* Build configuration list for PBXProject "redBasket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02695C80213158F300F571DB /* Debug */,
+				02695C81213158F300F571DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02695C82213158F300F571DB /* Build configuration list for PBXNativeTarget "redBasket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02695C83213158F300F571DB /* Debug */,
+				02695C84213158F300F571DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02695C85213158F300F571DB /* Build configuration list for PBXNativeTarget "redBasketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02695C86213158F300F571DB /* Debug */,
+				02695C87213158F300F571DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02695C88213158F300F571DB /* Build configuration list for PBXNativeTarget "redBasketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02695C89213158F300F571DB /* Debug */,
+				02695C8A213158F300F571DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02695C61213158F200F571DB /* redBasket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02695C62213158F200F571DB /* redBasket.xcdatamodel */,
+			);
+			currentVersion = 02695C62213158F200F571DB /* redBasket.xcdatamodel */;
+			path = redBasket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02695C4F213158F200F571DB /* Project object */;
+}

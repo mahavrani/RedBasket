@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'redBasket' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+   source 'https://github.com/CocoaPods/Specs.git'
+	
+  # Pods for redBasket
+  #Pod for API Call and Image Downloading.It is the wrapper of Alamofire.
+    pod 'TRON', '~> 4.0'
+    pod 'SwiftyJSON'
+  #Pod for Customised Activity Indicator 
+    pod 'NVActivityIndicatorView'
+  target 'redBasketTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'redBasketUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
